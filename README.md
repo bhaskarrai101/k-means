@@ -14,7 +14,7 @@ Step-2: Select random K points or centroids. (It can be other from the input dat
 
 Step-3: Assign each data point to their closest centroid, which will form the predefined K clusters.
 
-Step-4: Calculate the variance and place a new centroid of each cluster.
+Step-4: Update the centroids based on the geometric mean of all the data point in the cluster.
 
 Step-5: Repeat the third steps, which means reassign each datapoint to the new closest centroid of each cluster.
 
